@@ -59,7 +59,8 @@
   "files.associations": {
     "iso646.h": "c",
     "stdio.h": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "sqlite3.h": "c"
   },
   "terminal.integrated.fontFamily": "'Fira Code', monospace"
 }
