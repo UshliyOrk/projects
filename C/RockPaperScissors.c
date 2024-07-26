@@ -21,6 +21,9 @@ int main(void)
         else printf("You Lose :( \n");
     }
     printf("\033[93mThanks for playing !\n \033[0m");
+    printf("Press ENTER to exit ... ");
+    getchar();
+    getchar();
     
     return 0;
 }
