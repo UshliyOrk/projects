@@ -101,6 +101,7 @@ class App(QtWidgets.QMainWindow, Ui_MainWindow):
         self.refreshAction.triggered.connect(self.refresh_data)
         self.rightDateAction.triggered.connect(self.refreshRight)
         self.leftDateAction.triggered.connect(self.refreshLeft)
+        self.refresh_data()
 
 
     def refresh_data(self):
